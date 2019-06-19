@@ -9,7 +9,7 @@
     use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;    
 
       # Setup a specific instance of an Azure::Storage::Client
-      $connectionString = "DefaultEndpointsProtocol=https;AccountName=".getenv('ACCOUNT_NAME').";AccountKey=".getenv('ACCOUNT_KEY');
+      $connectionString = "DefaultEndpointsProtocol=https;AccountName=latstorage;AccountKey=qAOtIjV2SXRpq+3x68VN4ezgRUsmDEuHlTRd+JyJR+AKkDq6tGZl2z01fzSqtwxxgMEtBds1JPqSmZ6aef4yGg==;EndpointSuffix=core.windows.net";
     
       // Create blob client.
       $blobClient = BlobRestProxy::createBlobService($connectionString);
